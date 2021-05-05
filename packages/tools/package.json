@@ -1,0 +1,29 @@
+{
+  "name": "@mlemoe/tools",
+  "version": "0.0.1",
+  "description": "basic utils",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MleMoe/tools.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": {
+    "email": "i@mle.moe",
+    "name": "MleMoe"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MleMoe/tools/issues"
+  },
+  "homepage": "https://github.com/MleMoe/tools#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

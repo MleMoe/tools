@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MleMoe/tools.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "MleMoe",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.0.1"
+  },
+  "dependencies": {
+    "@mlemoe/tools": "^0.0.1"
+  }
+}
